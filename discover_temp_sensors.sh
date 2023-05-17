@@ -1,7 +1,6 @@
 #!/bin/bash
 
-#28-3ce
-result=$(ls /sys/bus/w1/devices | grep '28-3ce')
+result=$(ls /sys/bus/w1/devices | grep '28-')
 first=1
 
 echo "{"
